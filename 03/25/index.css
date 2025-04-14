@@ -4,29 +4,59 @@
     box-sizing: border-box;
 }
 #caja {
-    width: auto;
+    width: 650px;
     margin: auto;
-    border: 5px solid rgb(0, 34, 57);
-    padding: 30px;
-    border-radius: 20px;
+    border: 3px solid rgb(0, 34, 57);
+    
+    border-radius: 35px;
+}
+.titulo {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: green;
+    border-radius: 30px;
+}
+.foto {
+    background-color: rgb(160, 255, 160);
+    border-radius: 35px;
+}
+img {
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    border: solid 10px rgb(255, 255, 255);
+}
+div#caja-1 {
+    display: flex;
+    justify-content: space-around;
+}
+.acerca-de-nezuko {
+    width: 50%;
+}
+.acerca-de-nezuko h2 {
+    display: flex;
+    justify-content: center;
+}
+.acerca-de-nezuko p {
+    display: flex;
+    width: 90%;
+}
+.cajita {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.familiares {
     display: flex;
 }
-#titulo {
-display: flex;
-justify-content: center;
+footer {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    border-radius: 45px;
 }
-#foto {
-    text-align: center;
+.información-extra div{
+    display: flex;
+    justify-content: center;
 }
-#caja-1 {
-display: flex;
-height: 200px;
-}
-#acerca-de-nezuko   {
-    width: 50%;
-}
-#contacto {
-  
-    width: 50%;
-}
-
